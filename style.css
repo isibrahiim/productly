@@ -1,0 +1,195 @@
+/* container for the navigations*/
+
+.container {
+  width: 1114px;
+  margin: 0 auto;
+}
+
+/* navigations / ul*/
+.nav {
+  display: inline-block;
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.nav li a {
+  display: inline-block;
+  color: #2f281e;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* superpowers */
+.spr {
+  display: inline-block;
+
+  position: absolute;
+  width: 605px;
+  height: 496px;
+  left: 666px;
+  top: 128px;
+}
+
+/* left side/ sidebar */
+.left {
+  display: inline-block;
+
+  position: absolute;
+  width: 518px;
+  height: 331px;
+  left: 145px;
+  top: 211px;
+}
+
+.left h1 {
+  width: 518px;
+  height: 108px;
+  left: 145px;
+  top: 211px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.inleft {
+  width: 518px;
+  height: 233px;
+  left: 145px;
+  top: 211px;
+}
+
+.inleft p {
+  width: 458px;
+  height: 95px;
+  left: 145px;
+  top: 349px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #544837;
+}
+
+.feature {
+  position: absolute;
+  width: 2211px;
+  height: 543px;
+  left: -406px;
+  top: 734px;
+}
+.feature h2 {
+  height: 108px;
+  left: 38.22%;
+  right: 37.4%;
+  top: calc(50% - 108px / 2 - 217.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.card {
+  position: absolute;
+  width: 1095px;
+  height: 204px;
+  left: 567px;
+  top: 162px;
+}
+
+/* sign in button*/
+.signin {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #ffffff;
+  color: #173a56;
+  border-radius: 4px;
+
+  border: 1px solid #bcd0e5;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* sign up button*/
+.signup {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: #ffffff;
+
+  border: 1px solid #ff9900;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+.gets {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #ff9900;
+  color: white;
+
+  border: 1px solid #ff9900;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+.shift {
+  margin-left: 15px;
+}
+
+.clr {
+  color: #ff9900;
+}
+
+.design {
+  position: inline-block;
+  height: 108px;
+  left: 38.22%;
+  right: 37.4%;
+  top: calc(50% - 108px / 2 - 217.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #2f281e;
+}
