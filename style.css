@@ -111,8 +111,8 @@
 
 .cardelement {
   display: inline-block;
-  width: 240px;
-  height: 178px;
+  width: 224px;
+  height: 192px;
   left: 567px;
   top: 162px;
   margin-right: 41px;
@@ -151,6 +151,33 @@
 
   color: #2f281e;
 }
+
+.ptn {
+  text-align: center;
+}
+.ptnin {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: #ffffff;
+
+  border: 1px solid #ff9900;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  height: 60px;
+  width: 150px;
+}
+
 /* sign in button*/
 .signin {
   font-family: Poppins;
@@ -169,7 +196,7 @@
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
-  font-size: 11px;
+
   cursor: pointer;
 }
 
@@ -191,7 +218,6 @@
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
-  font-size: 11px;
 
   cursor: pointer;
 }
@@ -206,7 +232,7 @@
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 16px;
 
   cursor: pointer;
 }
