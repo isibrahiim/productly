@@ -109,6 +109,48 @@
   top: 162px;
 }
 
+.cardelement {
+  display: inline-block;
+  width: 240px;
+  height: 178px;
+  left: 567px;
+  top: 162px;
+  margin-right: 41px;
+}
+
+.cardelement:last-child {
+  margin-right: 0;
+}
+
+.cardelement p {
+  left: 0%;
+  right: 0%;
+  top: 37.1%;
+  bottom: 0%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #544837;
+}
+
+.cardelement h3 {
+  height: 33px;
+  left: 0%;
+  right: 20%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #2f281e;
+}
 /* sign in button*/
 .signin {
   font-family: Poppins;
