@@ -1,8 +1,11 @@
+body {
+  margin: 25px;
+}
 /* container for the navigations*/
 
 .container {
   width: 1114px;
-  margin: 0 auto;
+  margin: 0 autobnbn;
 }
 
 /* navigations / ul*/
@@ -25,29 +28,21 @@
 .spr {
   display: inline-block;
 
-  position: absolute;
   width: 605px;
   height: 496px;
-  left: 666px;
-  top: 128px;
 }
 
 /* left side/ sidebar */
 .left {
   display: inline-block;
 
-  position: absolute;
   width: 518px;
   height: 331px;
-  left: 145px;
-  top: 211px;
 }
 
 .left h1 {
   width: 518px;
   height: 108px;
-  left: 145px;
-  top: 211px;
 
   font-family: Poppins;
   font-style: normal;
@@ -59,15 +54,11 @@
 .inleft {
   width: 518px;
   height: 233px;
-  left: 145px;
-  top: 211px;
 }
 
 .inleft p {
   width: 458px;
   height: 95px;
-  left: 145px;
-  top: 349px;
 
   font-family: Poppins;
   font-style: normal;
@@ -80,41 +71,27 @@
 }
 
 .feature {
-  position: absolute;
   width: 2211px;
   height: 543px;
-  left: -406px;
-  top: 734px;
 }
 .feature h2 {
-  height: 108px;
-  left: 38.22%;
-  right: 37.4%;
-  top: calc(50% - 108px / 2 - 217.5px);
-
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 54px;
-  text-align: center;
   color: #2f281e;
 }
 
 .card {
-  position: absolute;
   width: 1095px;
   height: 204px;
-  left: 567px;
-  top: 162px;
 }
 
 .cardelement {
   display: inline-block;
   width: 224px;
   height: 192px;
-  left: 567px;
-  top: 162px;
   margin-right: 41px;
 }
 
@@ -123,11 +100,6 @@
 }
 
 .cardelement p {
-  left: 0%;
-  right: 0%;
-  top: 37.1%;
-  bottom: 0%;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -139,9 +111,6 @@
 
 .cardelement h3 {
   height: 33px;
-  left: 0%;
-  right: 20%;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -176,6 +145,143 @@
   cursor: pointer;
   height: 60px;
   width: 150px;
+}
+
+.effort {
+  width: 1110px;
+  height: 574px;
+}
+.effort div {
+  width: 520px;
+  height: 512px;
+  float: right;
+}
+.effort h3 {
+  height: 54px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #2f281e;
+}
+.effort p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #544837;
+}
+
+/* 05 Product Managers */
+.productmgr {
+  width: 1110px;
+  height: 574px;
+}
+.productmgr div {
+  width: 520px;
+  height: 512px;
+  float: right;
+}
+.proimg {
+  float: right;
+  margin: 15px;
+}
+.productmgr h3 {
+  height: 54px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #2f281e;
+}
+.productmgr p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #544837;
+}
+.productmgr ul {
+  background-color: #fff;
+  color: #000;
+  margin: 0 auto;
+}
+.productmgr ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* marketers*/
+.marketers {
+  width: 1110px;
+  height: 574px;
+}
+.marketers div {
+  width: 520px;
+  height: 512px;
+  float: right;
+}
+.marketers h3 {
+  height: 54px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #2f281e;
+}
+.marketers p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #544837;
+}
+
+footer {
+  width: 1109px;
+  height: 308px;
+  background-color: cornflowerblue;
+  margin-top: 50px;
+}
+
+.submit {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: #ffffff;
+
+  border: 1px solid #ff9900;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
 }
 
 /* sign in button*/
@@ -243,21 +349,4 @@
 
 .clr {
   color: #ff9900;
-}
-
-.design {
-  position: inline-block;
-  height: 108px;
-  left: 38.22%;
-  right: 37.4%;
-  top: calc(50% - 108px / 2 - 217.5px);
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 54px;
-  text-align: center;
-
-  color: #2f281e;
 }
