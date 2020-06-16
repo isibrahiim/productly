@@ -259,8 +259,8 @@ body {
 footer {
   width: 1109px;
   height: 308px;
-  background-color: cornflowerblue;
   margin-top: 50px;
+  border: #000 solid 1px;
 }
 
 .submit {
